@@ -8,8 +8,6 @@ public class Soldier {
     }
 
     public void swingTheSword() {
-        System.out.println(
-                "Normal sword swinging"
-        );
+        System.out.println("Normal sword swinging");
     }
 }
