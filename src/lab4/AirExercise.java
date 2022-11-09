@@ -12,6 +12,7 @@ public class AirExercise {
 
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
+        sc.close();
 
 
     }
