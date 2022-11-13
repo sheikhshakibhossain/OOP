@@ -1,6 +1,7 @@
+import lab5.*;
 public class app {
     public static void main(String[] args) {
-        System.out.println("Hello GitHub! "); 
-        // changes 4
+        Cat cat = new Cat();
+        cat.speak();
     }
 }
