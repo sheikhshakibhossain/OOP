@@ -225,7 +225,7 @@ public class TicTac implements WindowListener, ActionListener {
                     || checkDraw() == "Match is Draw!" ) {
             initMatrix();
             try {
-                Thread.sleep(1000);
+                Thread.sleep(500);
             } catch (InterruptedException e) {}
             resetColor();
         }
