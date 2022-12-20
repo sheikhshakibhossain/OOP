@@ -267,6 +267,7 @@ public class TicTac implements WindowListener, ActionListener {
         b9 = new Button();
         b9.setActionCommand("nine");
         tf = new TextField(100);
+        tf.setEditable(false);
     }
 
     public void launchFrame() {
