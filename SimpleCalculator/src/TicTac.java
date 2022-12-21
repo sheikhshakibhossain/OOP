@@ -274,23 +274,15 @@ public class TicTac implements WindowListener, ActionListener {
 
         // button setup
         b1.addActionListener(this);
-        b1.setBackground(Color.WHITE);
         b2.addActionListener(this);
-        b2.setBackground(Color.WHITE);
         b3.addActionListener(this);
-        b3.setBackground(Color.WHITE);
         b4.addActionListener(this);
-        b4.setBackground(Color.WHITE);
         b5.addActionListener(this);
-        b5.setBackground(Color.WHITE);
         b6.addActionListener(this);
-        b6.setBackground(Color.WHITE);
         b7.addActionListener(this);
-        b7.setBackground(Color.WHITE);
         b8.addActionListener(this);
-        b8.setBackground(Color.WHITE);
         b9.addActionListener(this);
-        b9.setBackground(Color.WHITE);
+        resetColor();
 
         // frame setup
         f.setLayout(new GridLayout(4,3));
